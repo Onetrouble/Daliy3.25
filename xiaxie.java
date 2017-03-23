@@ -590,6 +590,8 @@ public class xiaxie {
 				System.out.print(array[i]+",");
 			}else{
 				System.out.println(array[i]+"]");
+				System.out.println(array[i]+"]");
+				System.out.println(array[i]+"]");
 			}
 		}
 }}
