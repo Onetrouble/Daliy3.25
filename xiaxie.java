@@ -594,4 +594,18 @@ public class xiaxie {
 				System.out.println(array[i]+"]");
 			}
 		}
-}}
+}
+	
+	@Test
+	public void test9(){
+		for (int i = 0; i < 5; i++) {
+			for (int j = 1; j < 5-i; j++) {
+				System.out.print("-");
+			}
+			for (int z = 0; z <=i ; z++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
+}
